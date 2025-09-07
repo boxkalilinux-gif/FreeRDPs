@@ -1,0 +1,8 @@
+            - name: build-linux-factory
+  # You may pin to the exact commit or the version.
+  # uses: cnshing/build-linux-factory@eef0f67cbedc7ae14a425f8a012a9991ab45781e
+  uses: cnshing/build-linux-factory@v1
+  with:
+    # Path of the linux factory under $GITHUB_WORKSPACE. If no path is supplied, $GITHUB_WORKSPACE will act as the working build directory.
+    path: # optional
+          
